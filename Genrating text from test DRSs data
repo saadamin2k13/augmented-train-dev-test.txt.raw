@@ -1,10 +1,10 @@
 ### command for character level data generation ###
 
-bash ./src/marian_scripts/generate_text.sh config/marian/silver_ci_normal.sh ~/DRS-generation-outfile4/silver_ci_normal/models/pretrained/model1.npz ~/DRS-generation-outfile4/silver_ci_normal/output/pretrained/output1.seq.out corpus/en-data/gold-silver-raw/test.txt
+bash ./src/marian_scripts/generate_text.sh config/marian/silver_ci_normal.sh ~/DRS-generation-outfile5/silver_ci_normal/models/pretrained/model1.npz ~/DRS-generation-outfile5/silver_ci_normal/output/pretrained/output1.seq.out corpus/en-data/gold-silver-raw/test.txt
 
 
 
 ### command for word level data generation ###
 
-bash ./src/marian_scripts/generate_text.sh config/marian/silver_wi_tokenized.sh ~/DRS-generation-outfile4/silver_wi_tokenized/models/pretrained/model1.npz ~/DRS-generation-outfile4/silver_wi_tokenized/output/pretrained/output1.seq.out corpus/en-data/gold-silver-raw/test.txt
+bash ./src/marian_scripts/generate_text.sh config/marian/silver_wi_tokenized.sh ~/DRS-generation-outfile5/silver_wi_tokenized/models/pretrained/model1.npz ~/DRS-generation-outfile5/silver_wi_tokenized/output/pretrained/output1.seq.out corpus/en-data/gold-silver-raw/test.txt
 
